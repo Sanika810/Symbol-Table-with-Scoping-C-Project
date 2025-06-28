@@ -1,0 +1,24 @@
+assign e 9
+begin
+    assign a 5
+    assign c 8
+    begin 
+        assign b 9
+        print c
+        print a
+    end
+    begin
+        begin
+            assign a 15
+            prinf a  
+            print b  
+        end
+        print a  
+    end
+    print b  
+    begin 
+        assign c 5
+        print c
+    end
+    assign d 4
+end
